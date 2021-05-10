@@ -1,0 +1,181 @@
+*{
+	margin: 0;
+	border: 0;
+	padding: 0;
+
+}
+header{
+    background-color: skyblue;
+    height: 35px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: -35px;
+    position: fixed;
+    /* justify-content: space-around; */
+    /* color: white; */
+
+}
+header a{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+}
+header div{
+    width: 100px;
+}
+header input{
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    flex: 1;
+}
+header .q{
+    margin-right: 20px;
+}
+
+
+
+
+.body{
+    width: 750px;
+    margin: 0 auto;
+}
+
+.banner{
+    height: 400px;
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+}
+.banner img{
+    height: 100%;
+}
+
+
+/* .dl{
+    width: 750px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.dl dl{
+    height: 150px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.dl dt{
+    margin-bottom: 10px;
+} */
+.dl{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+.dl dl{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.quanbu{
+    display: flex;
+    height: 50px;
+    background-color: skyblue;
+    align-items: center;
+    color: white;
+}
+.quanbu h5{
+    font-weight: 700;
+    margin: 0 10px;
+}
+.quanbu a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+/* .rmkc{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    justify-content: space-around;
+} */
+.rmkc{
+    margin-bottom: 60px;
+}
+.rmkc dl{
+    height: 100%;
+    /* border:1px red solid; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid gray;
+}
+.rmkc dl .w{
+    display: flex;
+    flex-direction: column;
+}
+.rmkc dl .w h2{
+    font-size: 15px;
+}
+.rmkc dl .w h3{
+    color: red;
+}
+.rmkc dl .w h3 span{
+    color: gray;
+    text-decoration:line-through;
+}
+.rmkc dl .e{
+    color: blue;
+}
+.rmkc dl .e h1{
+    font-size: 200px;
+}
+.rmkc dl .e h1 span{
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+footer{
+	height: 60px;
+	width: 100%;
+	background: #f8fcff;
+	position: fixed;
+	bottom: 0;
+	display: flex;	
+    /* margin-top: -60px; */
+}
+footer a{
+	text-decoration: none;	
+	display: flex;	
+	align-items: center;	
+	justify-content: center;	
+	width: 25%;
+	height: 100%;
+	color: black;
+	flex-direction: column;
+	/* border: 1px solid red; */
+}
+footer a span{
+		margin-top: 10px;
+}
+footer a:nth-of-type(1){
+		color: #1577ff;
+		font-weight: 600;
+}
